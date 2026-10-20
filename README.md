@@ -4,7 +4,7 @@
 
 Venho de marketing digital e gestão de times e hoje lidero tecnologia com foco em Inteligência Artificial. Entendo o problema do negócio na ponta (funil, CRM, mídia, atendimento) e construo a plataforma que o resolve, do pipeline de dados à interface, com IA entrando onde ela gera resultado.
 
-<img src="assets/metrics.svg" width="100%" alt="27 repositórios, 660+ contribuições no último ano, 4 plataformas próprias, 110+ testes automatizados" />
+<img src="assets/metrics.svg?v=2" width="100%" alt="27 repositórios, 660+ contribuições no último ano, 4 plataformas próprias, 110+ testes automatizados" />
 
 <br/>
 
