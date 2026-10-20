@@ -20,23 +20,23 @@
       <text x="24" y="70" font-size="38" font-weight="700" fill="#ffffff">27</text>
       <text x="24" y="97" font-size="13" fill="#8ea4c6">repositórios de código</text>
     </g>
-    <g class="t t2" transform="translate(306 0)">
+    <g transform="translate(306 0)"><g class="t t2">
       <rect x="0.5" y="0.5" width="281" height="119" rx="12" fill="#0d1729" stroke="#22385f"/>
       <rect class="bar" x="24" y="22" width="40" height="3" rx="1.5" fill="url(#accent)" style="animation-delay:.5s"/>
       <text x="24" y="70" font-size="38" font-weight="700" fill="#ffffff">660+</text>
       <text x="24" y="97" font-size="13" fill="#8ea4c6">contribuições no último ano</text>
-    </g>
-    <g class="t t3" transform="translate(612 0)">
+    </g></g>
+    <g transform="translate(612 0)"><g class="t t3">
       <rect x="0.5" y="0.5" width="281" height="119" rx="12" fill="#0d1729" stroke="#22385f"/>
       <rect class="bar" x="24" y="22" width="40" height="3" rx="1.5" fill="url(#accent)" style="animation-delay:.7s"/>
       <text x="24" y="70" font-size="38" font-weight="700" fill="#ffffff">4</text>
       <text x="24" y="97" font-size="13" fill="#8ea4c6">plataformas próprias de ponta a ponta</text>
-    </g>
-    <g class="t t4" transform="translate(918 0)">
+    </g></g>
+    <g transform="translate(918 0)"><g class="t t4">
       <rect x="0.5" y="0.5" width="281" height="119" rx="12" fill="#0d1729" stroke="#22385f"/>
       <rect class="bar" x="24" y="22" width="40" height="3" rx="1.5" fill="url(#accent)" style="animation-delay:.9s"/>
       <text x="24" y="70" font-size="38" font-weight="700" fill="#ffffff">110+</text>
       <text x="24" y="97" font-size="13" fill="#8ea4c6">testes automatizados em produção</text>
-    </g>
+    </g></g>
   </g>
 </svg>
