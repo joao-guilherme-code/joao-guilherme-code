@@ -8,6 +8,12 @@ Venho de marketing digital e gestão de times e hoje lidero tecnologia com foco 
 
 <br/>
 
+## Trajetória
+
+<img src="assets/trajetoria.svg" width="100%" alt="Trajetória: marketing digital, automação e dados, plataformas de IA, liderança de TI" />
+
+<br/>
+
 ## Plataformas que construí
 
 Os repositórios são privados porque contêm dados de operação. Aqui está a arquitetura de cada um.
@@ -119,6 +125,19 @@ Automação que exporta diariamente os relatórios de leads de várias contas de
 ### Também no meu GitHub
 
 Integrações com GA4 e API do ClickUp, fluxos de aprovação de peças criativas, calculadora de marketing, auditorias automatizadas, agente de tarefas com IA e ferramentas de publicação de conteúdo.
+
+<br/>
+
+## O problema de negócio por trás de cada plataforma
+
+| Problema na operação | Como resolvi |
+|:--|:--|
+| Dados de CRM, mídia e WhatsApp espalhados em ferramentas diferentes | Visão unificada por cliente, com cálculo testado e status em linguagem simples (Capta IA) |
+| Avaliar atendimento de vendas exige ler conversa por conversa | Avaliação por IA em lote, com evidência citada da própria conversa |
+| Rotina pessoal pulverizada entre agenda, e-mail, WhatsApp e tarefas | Assistente com voz e memória que cuida do dia e age no computador (Nexus) |
+| Cada nova ferramenta interna reinventa login, permissão e visual | Shell único com catálogo de apps, perfis e contrato de integração (Portal) |
+| Exportar relatórios de várias contas na mão, todo dia | Pipeline agendado que entrega os dados prontos no data warehouse |
+| Custo de IA sem controle | Roteamento de modelos com fila gratuita, camada paga e teto mensal |
 
 <br/>
 
