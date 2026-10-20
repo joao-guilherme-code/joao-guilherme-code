@@ -1,42 +1,96 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-label="João Guilherme — Head de TI, IA aplicada a negócios">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="João Guilherme — Head de TI, IA aplicada a negócios">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0a1020"/>
-      <stop offset="1" stop-color="#14274a"/>
+      <stop offset="0" stop-color="#070d1b"/>
+      <stop offset="1" stop-color="#12234a"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0.82" cy="0.35" r="0.55">
-      <stop offset="0" stop-color="#2f8cff" stop-opacity="0.35"/>
+    <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2f8cff" stop-opacity="0.42"/>
       <stop offset="1" stop-color="#2f8cff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8a6bff" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#8a6bff" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#4cc3ff"/>
-      <stop offset="1" stop-color="#7b8cff"/>
+      <stop offset="1" stop-color="#8a8cff"/>
     </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#4cc3ff" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <clipPath id="r"><rect width="1200" height="320" rx="16"/></clipPath>
+    <path id="p1" d="M740 230 L830 150 L930 200 L1030 110 L1130 170"/>
+    <path id="p2" d="M790 60 L900 70 L1030 110"/>
+    <path id="p3" d="M930 200 L1000 280 L1100 250 L1130 170"/>
   </defs>
-  <rect width="1200" height="280" rx="14" fill="url(#bg)"/>
-  <rect width="1200" height="280" rx="14" fill="url(#glow)"/>
+  <style>
+    .sans{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}
+    .mono{font-family:'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace}
+    @keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+    @keyframes cycle{0%{opacity:0;transform:translateY(10px)}6%,28%{opacity:1;transform:none}34%,100%{opacity:0;transform:translateY(-10px)}}
+    @keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(-50px,26px)}}
+    @keyframes drift2{0%,100%{transform:translate(0,0)}50%{transform:translate(40px,-24px)}}
+    @keyframes beat{0%,100%{opacity:.55;transform:scale(1)}50%{opacity:1;transform:scale(1.7)}}
+    @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+    @keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+    .a1{opacity:0;animation:rise 1s .1s ease-out forwards}
+    .a2{opacity:0;animation:rise 1s .35s ease-out forwards}
+    .a3{opacity:0;animation:rise 1s .6s ease-out forwards}
+    .a4{opacity:0;animation:rise 1s .85s ease-out forwards}
+    .c1,.c2,.c3{opacity:0;animation:cycle 12s infinite}
+    .c1{animation-delay:1.2s}.c2{animation-delay:5.2s}.c3{animation-delay:9.2s}
+    .g1{animation:drift 14s ease-in-out infinite}
+    .g2{animation:drift2 17s ease-in-out infinite}
+    .node{transform-box:fill-box;transform-origin:center;animation:beat 3.2s ease-in-out infinite}
+    .bar{transform-box:fill-box;transform-origin:left center;animation:grow 1.2s .1s ease-out both}
+    .dot{animation:blink 1.6s ease-in-out infinite}
+  </style>
 
-  <g stroke="#4cc3ff" stroke-opacity="0.28" stroke-width="1.2" fill="none">
-    <path d="M760 210 L850 140 L960 175 L1060 95 L1150 150"/>
-    <path d="M850 140 L900 60 L1010 40 L1060 95"/>
-    <path d="M960 175 L1000 245 L1110 225 L1150 150"/>
-    <path d="M900 60 L960 175"/>
-    <path d="M1010 40 L1150 150"/>
-  </g>
-  <g fill="#4cc3ff">
-    <circle cx="760" cy="210" r="4" fill-opacity="0.5"/>
-    <circle cx="850" cy="140" r="6"/>
-    <circle cx="960" cy="175" r="5" fill-opacity="0.8"/>
-    <circle cx="1060" cy="95" r="7"/>
-    <circle cx="1150" cy="150" r="4" fill-opacity="0.6"/>
-    <circle cx="900" cy="60" r="4" fill-opacity="0.6"/>
-    <circle cx="1010" cy="40" r="5" fill-opacity="0.8"/>
-    <circle cx="1000" cy="245" r="4" fill-opacity="0.5"/>
-    <circle cx="1110" cy="225" r="5" fill-opacity="0.7"/>
+  <g clip-path="url(#r)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <circle class="g1" cx="1000" cy="110" r="260" fill="url(#glowA)"/>
+    <circle class="g2" cx="300" cy="320" r="240" fill="url(#glowB)"/>
+
+    <g stroke="#4cc3ff" stroke-opacity="0.26" stroke-width="1.2" fill="none">
+      <path d="M740 230 L830 150 L930 200 L1030 110 L1130 170"/>
+      <path d="M830 150 L900 70 L1030 110"/>
+      <path d="M930 200 L1000 280 L1100 250 L1130 170"/>
+      <path d="M790 60 L900 70"/>
+      <path d="M790 60 L830 150"/>
+    </g>
+    <g fill="#4cc3ff">
+      <circle class="node" cx="740" cy="230" r="4" style="animation-delay:0s"/>
+      <circle class="node" cx="830" cy="150" r="6" style="animation-delay:.6s"/>
+      <circle class="node" cx="930" cy="200" r="5" style="animation-delay:1.2s"/>
+      <circle class="node" cx="1030" cy="110" r="7" style="animation-delay:1.8s"/>
+      <circle class="node" cx="1130" cy="170" r="4" style="animation-delay:2.4s"/>
+      <circle class="node" cx="900" cy="70" r="4" style="animation-delay:.9s"/>
+      <circle class="node" cx="790" cy="60" r="4" style="animation-delay:1.5s"/>
+      <circle class="node" cx="1000" cy="280" r="4" style="animation-delay:2.1s"/>
+      <circle class="node" cx="1100" cy="250" r="5" style="animation-delay:.3s"/>
+    </g>
+    <g fill="#ffffff">
+      <circle r="3"><animateMotion dur="5s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion></circle>
+      <circle r="3"><animateMotion dur="4s" begin="1s" repeatCount="indefinite"><mpath href="#p2"/></animateMotion></circle>
+      <circle r="3"><animateMotion dur="6s" begin="2s" repeatCount="indefinite"><mpath href="#p3"/></animateMotion></circle>
+    </g>
   </g>
 
-  <rect x="70" y="62" width="56" height="4" rx="2" fill="url(#accent)"/>
-  <text x="70" y="132" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff" letter-spacing="-1">João Guilherme</text>
-  <text x="70" y="176" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="23" fill="#a9bdd9">Head de TI · Inteligência Artificial aplicada a negócios</text>
-  <text x="70" y="226" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#4cc3ff" letter-spacing="3">IA APLICADA  ·  AUTOMAÇÃO  ·  DADOS  ·  LIDERANÇA TÉCNICA</text>
+  <g class="a1">
+    <rect x="70" y="44" width="236" height="28" rx="14" fill="#4cc3ff" fill-opacity="0.08" stroke="#4cc3ff" stroke-opacity="0.45"/>
+    <circle class="dot" cx="90" cy="58" r="4" fill="#4cc3ff"/>
+    <text class="mono" x="104" y="62.5" font-size="11.5" font-weight="600" fill="#4cc3ff" letter-spacing="2">HEAD DE TI · IA APLICADA</text>
+  </g>
+  <text class="sans a2" x="68" y="146" font-size="66" font-weight="700" fill="#ffffff" letter-spacing="-1.5">João Guilherme</text>
+  <rect class="bar" x="70" y="164" width="72" height="4" rx="2" fill="url(#accent)"/>
+  <text class="sans a3" x="70" y="206" font-size="22" fill="#a9bdd9">Construo plataformas de IA, dados e automação para operações reais.</text>
+
+  <g class="mono" font-size="17" fill="#4cc3ff">
+    <text class="c1" x="70" y="246">&gt; agentes de IA que operam o dia a dia</text>
+    <text class="c2" x="70" y="246">&gt; dados que viram decisão</text>
+    <text class="c3" x="70" y="246">&gt; tecnologia que escala operação</text>
+  </g>
+  <text class="mono a4" x="70" y="292" font-size="12" fill="#6f86a8" letter-spacing="2.5">PYTHON  ·  FASTAPI  ·  BIGQUERY  ·  LLMs  ·  AUTOMAÇÃO</text>
 </svg>
