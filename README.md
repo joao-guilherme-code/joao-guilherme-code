@@ -1,4 +1,4 @@
-<img src="assets/banner.svg" width="100%" alt="João Guilherme — Head de TI, IA aplicada a negócios" />
+<img src="assets/hero.svg" width="100%" alt="João Guilherme — Head de TI, IA aplicada a negócios" />
 
 <br/>
 
