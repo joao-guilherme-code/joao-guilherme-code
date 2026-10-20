@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-label="João Guilherme — Head de TI, IA aplicada a negócios">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1020"/>
+      <stop offset="1" stop-color="#14274a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.35" r="0.55">
+      <stop offset="0" stop-color="#2f8cff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#2f8cff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4cc3ff"/>
+      <stop offset="1" stop-color="#7b8cff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="280" rx="14" fill="url(#bg)"/>
+  <rect width="1200" height="280" rx="14" fill="url(#glow)"/>
+
+  <g stroke="#4cc3ff" stroke-opacity="0.28" stroke-width="1.2" fill="none">
+    <path d="M760 210 L850 140 L960 175 L1060 95 L1150 150"/>
+    <path d="M850 140 L900 60 L1010 40 L1060 95"/>
+    <path d="M960 175 L1000 245 L1110 225 L1150 150"/>
+    <path d="M900 60 L960 175"/>
+    <path d="M1010 40 L1150 150"/>
+  </g>
+  <g fill="#4cc3ff">
+    <circle cx="760" cy="210" r="4" fill-opacity="0.5"/>
+    <circle cx="850" cy="140" r="6"/>
+    <circle cx="960" cy="175" r="5" fill-opacity="0.8"/>
+    <circle cx="1060" cy="95" r="7"/>
+    <circle cx="1150" cy="150" r="4" fill-opacity="0.6"/>
+    <circle cx="900" cy="60" r="4" fill-opacity="0.6"/>
+    <circle cx="1010" cy="40" r="5" fill-opacity="0.8"/>
+    <circle cx="1000" cy="245" r="4" fill-opacity="0.5"/>
+    <circle cx="1110" cy="225" r="5" fill-opacity="0.7"/>
+  </g>
+
+  <rect x="70" y="62" width="56" height="4" rx="2" fill="url(#accent)"/>
+  <text x="70" y="132" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff" letter-spacing="-1">João Guilherme</text>
+  <text x="70" y="176" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="23" fill="#a9bdd9">Head de TI · Inteligência Artificial aplicada a negócios</text>
+  <text x="70" y="226" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#4cc3ff" letter-spacing="3">IA APLICADA  ·  AUTOMAÇÃO  ·  DADOS  ·  LIDERANÇA TÉCNICA</text>
+</svg>
