@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-label="Trajetória: marketing digital, automação, plataformas de IA, liderança de TI">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4cc3ff"/>
+      <stop offset="1" stop-color="#8a8cff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8a8cff" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#8a8cff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#4cc3ff" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+  <style>
+    .sans{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}
+    .mono{font-family:'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace}
+    @keyframes draw{from{stroke-dashoffset:1000}to{stroke-dashoffset:0}}
+    @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+    @keyframes pop{from{opacity:0;transform:scale(.2)}to{opacity:1;transform:scale(1)}}
+    @keyframes ring{0%{opacity:.8;transform:scale(1)}100%{opacity:0;transform:scale(3)}}
+    @keyframes breathe{0%,100%{opacity:.5}50%{opacity:1}}
+    .line{stroke-dasharray:1000;stroke-dashoffset:1000;animation:draw 3.6s .3s ease-in-out forwards}
+    .node{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .5s ease-out forwards}
+    .n1{animation-delay:.4s}.n2{animation-delay:1.4s}.n3{animation-delay:2.5s}.n4{animation-delay:3.6s}
+    .card{opacity:0;animation:rise .8s ease-out forwards}
+    .k1{animation-delay:.6s}.k2{animation-delay:1.6s}.k3{animation-delay:2.7s}.k4{animation-delay:3.8s}
+    .pulse{transform-box:fill-box;transform-origin:center;opacity:0;animation:ring 2.4s 4.2s ease-out infinite}
+    .halo{opacity:0;animation:breathe 3.5s 4s ease-in-out infinite}
+    .box{fill:#0d1729;stroke:#22385f}
+    .boxhi{fill:#0c1a33;stroke:url(#accent);stroke-width:1.4}
+    .h{fill:#ffffff;font-weight:700}
+    .s{fill:#8ea4c6}
+  </style>
+
+  <rect width="1200" height="310" rx="16" fill="#0a1020"/>
+  <rect width="1200" height="310" rx="16" fill="url(#grid)"/>
+
+  <text class="mono" x="40" y="46" font-size="12" font-weight="600" fill="#4cc3ff" letter-spacing="3">TRAJETÓRIA</text>
+  <text class="sans" x="40" y="72" font-size="16" fill="#a9bdd9">Do funil de marketing à liderança de tecnologia, sempre com o negócio como ponto de partida.</text>
+
+  <path d="M150 128 H1050" stroke="#22385f" stroke-width="2" fill="none"/>
+  <path class="line" d="M150 128 H1050" stroke="url(#accent)" stroke-width="2.5" fill="none" pathLength="1000"/>
+
+  <circle class="halo" cx="1050" cy="128" r="46" fill="url(#glow)"/>
+  <circle class="pulse" cx="1050" cy="128" r="10" fill="none" stroke="#8a8cff" stroke-width="2"/>
+
+  <g>
+    <circle class="node n1" cx="150" cy="128" r="9" fill="#0a1020" stroke="#4cc3ff" stroke-width="2.5"/>
+    <circle class="node n2" cx="450" cy="128" r="9" fill="#0a1020" stroke="#4cc3ff" stroke-width="2.5"/>
+    <circle class="node n3" cx="750" cy="128" r="9" fill="#0a1020" stroke="#6fa8ff" stroke-width="2.5"/>
+    <circle class="node n4" cx="1050" cy="128" r="11" fill="#8a8cff" stroke="#ffffff" stroke-width="2"/>
+  </g>
+
+  <g class="mono" font-size="11" fill="#6f86a8" letter-spacing="2.5" text-anchor="middle">
+    <text class="card k1" x="150" y="106">ETAPA 01</text>
+    <text class="card k2" x="450" y="106">ETAPA 02</text>
+    <text class="card k3" x="750" y="106">ETAPA 03</text>
+    <text class="card k4" x="1050" y="106" fill="#8a8cff">HOJE</text>
+  </g>
+
+  <g class="sans">
+    <g class="card k1">
+      <rect class="box" x="25.5" y="160.5" width="249" height="120" rx="12"/>
+      <text class="h" x="45" y="190" font-size="17">Marketing digital</text>
+      <text class="s" x="45" y="216" font-size="13">Tráfego pago, CRM e gestão de</text>
+      <text class="s" x="45" y="234" font-size="13">contas. O funil e o cliente por</text>
+      <text class="s" x="45" y="252" font-size="13">dentro, na prática.</text>
+    </g>
+    <g class="card k2">
+      <rect class="box" x="325.5" y="160.5" width="249" height="120" rx="12"/>
+      <text class="h" x="345" y="190" font-size="17">Automação e dados</text>
+      <text class="s" x="345" y="216" font-size="13">Scripts, integrações de API e</text>
+      <text class="s" x="345" y="234" font-size="13">pipelines que tiram o trabalho</text>
+      <text class="s" x="345" y="252" font-size="13">repetitivo do caminho.</text>
+    </g>
+    <g class="card k3">
+      <rect class="box" x="625.5" y="160.5" width="249" height="120" rx="12"/>
+      <text class="h" x="645" y="190" font-size="17">Plataformas de IA</text>
+      <text class="s" x="645" y="216" font-size="13">Nexus, Capta IA e Portal: sistemas</text>
+      <text class="s" x="645" y="234" font-size="13">completos, do dado à interface,</text>
+      <text class="s" x="645" y="252" font-size="13">com IA em produção.</text>
+    </g>
+    <g class="card k4">
+      <rect class="boxhi" x="925.5" y="160.5" width="249" height="120" rx="12"/>
+      <text class="h" x="945" y="190" font-size="17">Liderança de TI</text>
+      <text class="s" x="945" y="216" font-size="13">Head de TI com foco em IA: unir</text>
+      <text class="s" x="945" y="234" font-size="13">estratégia, time e tecnologia</text>
+      <text class="s" x="945" y="252" font-size="13">para escalar a operação.</text>
+    </g>
+  </g>
+</svg>
